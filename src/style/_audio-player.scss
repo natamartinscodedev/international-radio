@@ -1,0 +1,34 @@
+.container_audio-player {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+.box_button-play {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    &:hover {
+      scale: 1.2;
+    }
+  }
+}
+
+.box_info-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}

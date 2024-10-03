@@ -1,0 +1,23 @@
+.container_card-serach {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+
+  input {
+    padding: 10px 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+}
+
+.box_list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 500px;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}

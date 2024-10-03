@@ -1,0 +1,11 @@
+.card_list-song {
+  background-color: hsla(240, 5%, 32%, 1);
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(62, 62, 65);
+    scale: 1.02;
+  }
+}
