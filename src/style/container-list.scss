@@ -15,3 +15,9 @@
 .icon_menu {
   text-align: end;
 }
+
+@media (max-width: 800px) {
+  .container_list {
+    max-width: 100%;
+  }
+}
